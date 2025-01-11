@@ -25,6 +25,14 @@ class Book{
             this->author = author;
             this->pages = pages;
         }
+
+        // destructor
+        ~Book(){
+            cout<<"Book is getting destroyed by : "<<this->author<<endl;
+            // Book is getting destroyed by the author : 
+            // Book is getting destroyed by the author : sombulingam
+            // Book is getting destroyed by the author : deexith
+        }
         
         // member functions
         void PrintDetails(){
